@@ -11,6 +11,7 @@ public class Main {
         Product product1 = new Product(1,"Dell",10000,"8 gb ram" ,10 ); //instance
 
         System.out.println(product1.getUnitPriceAfterDiscount());
+        System.out.println("1.değişiklik");
 
         System.out.println(product1.getDetail());
         product1.setDetail("16 gb ram");
